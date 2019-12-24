@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> PMT - Pick My Talent </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+  box-sizing: border-box;
+}
+    body {
+      margin: 0;
+    }
+    h1 {
+      font-size:60px;
+    }
+    .header {
+      background-color: #FA9F4A;
+      padding:5px;
+      text-align: center;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+}
+    .topnav a{
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none:
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .column{
+      float:left;
+      width: 25%
+      padding: 15px;
+    }
+    h2 {
+      text-align : center;
+    }
+    .row:after {
+      content:"#";
+      display: table:
+      clear: both;
+    }
+    .footer {
+      background-color :#FFBF00;
+      padding : 10px;
+      text-align: center;
+    }
+    @media screen {
+    .column {
+        width: 25%;
+      }
+    }
+    video{
+      width :100%;
+      height: auto;
+      align-content:center;
+      padding:5px;
+    }
+
+    </style>
+</head>
+  <body>
+  <div class="header">
+    <h1> PMT </h1>
+    <p>Resize the browser window to see the responsive effect.</p>
+  </div>
+  <div class="topnav">
+    <a href="#"> 노래 </a>
+    <a href="#"> 랩 </a>
+    <a href="#"> 댄스 </a>
+    <a href="#"> 개그 </a>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h2> 노래 </h2>
+      <video width="320" height="240" controls>
+        <source src="노래.mp4" type/mp4>
+        <source src="노래.ogg" type/ogg">
+     </video>
+
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+
+    <div class="column">
+      <h2> 랩 </h2>
+      <video width="320" height="240" controls>
+        <source src="랩.mp4" type/mp4>
+        <source src="랩.ogg" type/ogg">
+     </video>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+
+    <div class="column">
+      <h2> 댄스 </h2>
+      <video width="320" height="240" controls>
+        <source src="댄스.mp4" type/mp4>
+        <source src="댄스.ogg" type/ogg">
+     </video>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+
+    <div class="column">
+      <h2> 개그 </h2>
+      <video width="320" height="240" controls>
+        <source src="개그.mp4" type/mp4>
+        <source src="개그.ogg" type/ogg">
+     </video>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p> footer </p>
+  </div>
+
+  </body>
+</html>
